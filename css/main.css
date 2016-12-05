@@ -1,1 +1,140 @@
-/* Tu CSS va aqui */
+*{
+    outline: 1px solid rgba(210, 30, 234, 0.65);
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sep-rojo{
+    border: solid #c62033 1px;
+    width: 30px;
+}
+.sep-blanco{
+    border: solid #ffffff 1px;
+    width: 30px;
+}
+
+.navbar{
+    margin: 0;
+}
+.icon-bar{
+    border: white 1px solid;
+}
+.nav li a:hover{
+    background: #d93517;
+    color: #FFF;
+    }
+
+
+/* ---------- HEADER ----------*/
+
+header{
+    background: url(../img/header.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: white;
+    }
+.boton-rojo{
+    background: #d93517;
+    font-weight: bolder;
+    padding: 1% 2%;
+    margin: 3%;
+}
+.titulo{
+    margin: 15% 0;
+    }
+
+/* ------------- BARRA 2 -----------------*/
+
+
+.barra2 {
+    background: #ea7246;
+     }
+
+.barra2 a{
+    color: #964c31;
+    font-size: 70%;
+}
+
+/* ---------- ABOUT ME -------------------*/
+
+
+.aboutme{
+    background: #d93517;
+    color: #FFF;
+    }
+.about-text{
+    margin: 5% 0;
+}
+
+/*-----------------------SERVICIOS-----------------------*/
+
+.servicios{
+    margin: 3% 0;
+}
+.icono-ctn{
+    font-size: 50px;
+    color: #d93517;
+}
+
+/*-----------------------ENLACE GIT------------------------*/
+
+
+.git{
+    background: #3e3b3b;
+    color: #ffffff;
+      }
+.foto{
+      padding: 0;
+      text-align: center;
+    }
+.git-text{
+    padding: 2% 0;
+}
+
+.btn-w{
+    background: white;
+    border-radius: 25%;
+    color: black;
+    margin: 1%;
+    padding: 1%;
+    font-weight: bold;
+}
+
+/*-----------------------FOOTER -----------------------*/
+
+
+footer{
+    margin: 2%;
+}
+footer .icono{
+    font-size: 15px;
+    }
+
+#red{
+    color: #cb2424;
+}
+
+/* ------- media ----------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
